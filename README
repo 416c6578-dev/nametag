@@ -1,0 +1,11 @@
+python3 led_badge.py "Hello World!"                    # Scroll links
+python3 led_badge.py "ALEX LED" -s 2                   # Langsam
+python3 led_badge.py "FROHE WEIHNACHTEN" -s 1 -m 4     # Statisch, sehr langsam
+python3 led_badge.py "HAPPY 2026!" -s 8 -m 0           # Schnell scrollen
+python3 led_badge.py ":heart: ALEX :heart:"            # Mit Herz-Smiley!
+python3 led_badge.py "LED BADGE TEST 123"              # Langer Text
+
+# Ubuntu/Debian
+sudo apt update
+sudo apt install python3 python3-pip python3-venv
+sudo apt install python3-hidapi python3-pillow
